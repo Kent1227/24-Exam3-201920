@@ -67,7 +67,7 @@ def run_test_problem5():
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
-    sequence = [[1,3,2], [10, 5], []]
+    sequence = [[1, 3, 2], [10, 5], []]
     expected = [3, 10]
     print_expected_result_of_test([sequence], expected,
                                   test_results, format_string)
@@ -156,7 +156,7 @@ def problem5(seq_of_seq):
     return r
 
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DONE: 2. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
 
